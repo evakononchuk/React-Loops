@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import BalticCountries from "./BalticCountries";
 import Countries from "./Countries";
+import Cities from "./Cities";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -42,7 +43,7 @@ root.render(
         Countries and list all countries from the Countries component using a
         loop.
       </p>
-      <Countries countries={countries} />
+      <Cities />
 
       <h3>Challenge 3</h3>
       <p>
@@ -50,6 +51,7 @@ root.render(
         country name but also the capital city of each country. Display each
         country and capital city in the Countries component
       </p>
+      <Countries countries={countries} />
     </div>
   </StrictMode>
 );
