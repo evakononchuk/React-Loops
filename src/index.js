@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 
 import BalticCountries from "./BalticCountries";
 import Countries from "./Countries";
-import "./styles.css";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
